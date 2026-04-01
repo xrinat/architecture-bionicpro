@@ -87,7 +87,7 @@ const ReportPage: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="w-full max-w-5xl p-8 bg-white rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold mb-2">Usage Reports</h1>
+        <h1 className="text-2xl font-bold mb-2">Usage Reports (by Rinat)</h1>
         <p className="mb-6 text-sm text-gray-600">
           Signed in as <span className="font-medium">{keycloak.tokenParsed?.preferred_username as string}</span>
         </p>
